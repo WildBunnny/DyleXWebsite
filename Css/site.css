@@ -187,7 +187,7 @@ body {
   }
   
   .content-section {
-    padding-top: 150px;
+    padding-top: 40px;
     padding-bottom: 150px;
   }
   
@@ -196,7 +196,7 @@ body {
 }
 
   .download-section {
-    color: white;
+    
     background-color: #e8eaec ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -263,7 +263,7 @@ body {
   }
   
   footer {
-    background-color: #e8eaec;
+    background-color: white;
     padding: 50px 0;
   }
   
@@ -307,8 +307,11 @@ body {
   }
   .text-left{
    text-align: left; 
+   padding-right: 200px;
   }
-  
+  .text-center{
+    vertical-align: middle;
+  }
   
   .ui-coverflow-wrapper{
     height:400px;
@@ -341,4 +344,42 @@ body {
    position: relative;
    
  }
- 
+ .move-right{
+   text-align: right;
+ }
+
+ @font-face{
+  font-family: astron-boy;
+  src: url('../libs/Font/astron-boy/astron\ boy.ttf');
+ }
+ @font-face{
+  font-family: arcadeclassic;
+  src: url('../libs/Font/arcadeclassic/ARCADECLASSIC.TTF');
+ }
+  .custom-font-1{
+   font-family: astron-boy ;
+ }
+ .custom-font-2{
+  font-family: arcadeclassic ;
+}
+.text-down{
+  padding-top: 100px;
+}
+.padding-down{
+  padding-top: 10px;
+  padding-right: 25px;
+  margin-right: 75px;
+}
+
+
+.col-md-5{
+  margin-bottom:75px;
+
+}
+.pt-1{
+padding-top:3px;
+}
+.pt-2{
+  padding-top:45px;
+  }
+  
